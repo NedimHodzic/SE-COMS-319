@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validation Form</title>
+    <script src="./validation1.js"></script>
+</head>
+<body>
+    <h1>Validation Form</h1>
+    <form id="Personal Info">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p id="FirstName">
+                <label for="first">*First name</label>
+                <input type="text" id="first" name="first">
+            </p>
+            <p id="LastName">
+                <label for="last">*Last name</label>
+                <input type="text" id="last" name="last">
+            </p>
+            <p id="Gender">
+                <label for="gender">*Gender</label>
+                <select name="gender" id="gender">
+                    <option value="Select">Select a Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </p>
+            <p id="State">
+                <label for="state">*State</label>
+                <select name="state" id="state">
+                    <option value="Select">Select a State</option>
+                    <option value="California">California</option>
+                    <option value="Florida">Florida</option>
+                    <option value="New York">New York</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Washington">Washington</option>
+                    <option value="Colordo">Colorado</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Arizona">Arizona</option>
+                </select>
+            </p>
+            <input onCLick="validate1()" type="button" id="continue" name="continue" value="Continue"/>
+            <p>*Required Fields</p>
+        </fieldset>
+    </form>
+</body>
+</html>

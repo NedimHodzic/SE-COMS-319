@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Information</title>
+    <script src="./validation2.js"></script>
+</head>
+<body>
+    <h1>Validation Form</h1>
+
+    <form id="Contact Info">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <p id="Email">
+                <label for="email">*Email</label>
+                <input type="text" id="email" name="email">
+            </p>
+            <p id="Number">
+                <label for="phone">*Phone Number</label>
+                <input type="text" id="phone" name="phone">
+            </p>
+            <p id="Address">
+                <label for="address">*Address</label>
+                <input type="text" id="address" name="address">
+            </p>
+            <input onCLick="validate2()" type="button" id="submit" name="submit" value="Submit"/>
+            <p>*Required Fields</p>
+        </fieldset>
+    </form>
+</body>
+</html>
