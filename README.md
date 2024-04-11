@@ -1,4 +1,4 @@
 # SE/COMS-319
-This is a repository containing homework assignments from SE/COM S 319 at Iowa State University
+This repository contains homework assignments from SE/COM S 319: Construction of User Interfaces at Iowa State University, taken in my Sophomore year.
 
-PDF's for each assignment are included
+PDFs for each assignment are included.
